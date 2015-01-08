@@ -1,4 +1,7 @@
+# fetch integrated submodules due to missing composer compatibility
+@shell cd $MODULE/lib && git submodule init && git submodule sync && git submodule update
+
 # Cm_RedisSession
-code                                   app/code/community/Cm/RedisSession
-Cm_RedisSession.xml                    app/etc/modules/Cm_RedisSession.xml
+code                              app/code/community/Cm/RedisSession
+Cm_RedisSession.xml               app/etc/modules/Cm_RedisSession.xml
 lib/*                             lib/
